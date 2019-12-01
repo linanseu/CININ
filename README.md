@@ -1,6 +1,6 @@
-## implementation of CININ
+## CININ implementation
 
-This is the github repo for the work "Fast Distributed Convolutional Neural NetworkInferencing with CININ"
+This is the github repo for the work "Fast Distributed Convolutional Neural NetworkInferencing with CININ".
 
 ### Progressive retraining of discributed DNN
 1. Download caltech 101 dataset and imagenet dataset
