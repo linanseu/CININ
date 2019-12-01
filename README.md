@@ -1,28 +1,17 @@
-# Distribued Neural Network on Edge Devices
+### Distribued Neural Network on Edge Devices
 
-1. Put **256_ObjectCategories.tar** in data and unzip it.
+# Progressive retraining
 
-2. preprocess01.py and preprocess02.py are designed to preprocess the dataset, use ```python3 Caltech01.py``` to generate *label.txt* and use ```python3 Caltech02.py``` to generate *dataset-train.txt* and *dataset-test.txt*.
+1. Download the caltech101 or imagenet dataset.
 
-3. Use ```python3 main.py``` to run. Use ```python3 main.py --help``` to see some parameters.
+2. preprocess01.py and preprocess02.py are designed to preprocess the dataset, use ```python3 preprocess01.py``` to generate *label.txt* and use ```python3 preprocess02.py``` to generate *dataset-train.txt* and *dataset-test.txt*.
 
-4. New way to mimic the pixels loss. But it really costs **Too** much time.
+3. To run the code, type the following command
 
-    * Use markov_rand.
-    
-    ![](img/markov_rand.png)
-    
-    * Use dropout.
-    
-    ![](img/dropout.png)
-    
-5. Lossy Linear also spends much more time than original linear.
+```
+python3 main.py
+```
+To see the definitions of all the parameters, type the following command:
 
-	* Lossy Linear.
-	
-	![](img/lossy_linear.png)
-	
-	* Original Linear.
+```python3 main.py --help``` 
 
-	![](img/no_lossy_linear.png)
-	
