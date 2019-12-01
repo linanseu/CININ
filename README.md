@@ -1,6 +1,6 @@
-### Distribued Neural Network on Edge Devices
+# Distribued Neural Network on Edge Devices
 
-# Progressive retraining
+## Progressive retraining
 
 1. Download the caltech101 or imagenet dataset.
 
