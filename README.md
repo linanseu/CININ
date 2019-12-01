@@ -1,5 +1,12 @@
 # Distribued Neural Network on Edge Devices
 
+This repo contains the implementation of CININ: an distributed CNN inference framework over the edge clusters.
+CININ mainly consists of:
+
+CNN progressive retraining which takes the original trained CNN model as the input, and apply the changes on CNN models for efficient parallel inference over the cluster devices.
+
+A distributed runtime system for device clusters.
+
 ## Progressive retraining
 
 1. Download the caltech101 or imagenet dataset.
