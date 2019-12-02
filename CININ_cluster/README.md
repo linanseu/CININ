@@ -1,4 +1,4 @@
-This folder contains the codes for each cluster devices and the central node.
+##This folder contains the codes for each cluster devices and the central node.
 
 central_node_run.c: The process run at the central node, which runs the tile scheduling algorithm, input partition and assignment as described in the paper.
 
